@@ -1,0 +1,101 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #333;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  section {
+    position: relative;
+    padding: 40px;
+    min-height: 100vh;
+  }
+  
+  section h2 {
+    font-size: 64px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  section p {
+    font-size: 24px;
+    color: #c9c5c5;
+    text-align: center;
+  }
+  
+  #parallax {
+    background-image: url('1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .parallax-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product {
+    margin: 40px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .product h3 {
+    font-size: 36px;
+    margin: 20px 0;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .product p {
+    font-size: 18px;
+    color: #888;
+  }
+  
